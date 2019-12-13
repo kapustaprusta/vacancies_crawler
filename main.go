@@ -36,7 +36,7 @@ func main() {
 	vacanciesCounter := 0
 	currentPage := 30
 
-	vacanciesFile, _ := os.OpenFile("C:/Users/vladislav/Desktop/vacancies.txt", os.O_APPEND|os.O_WRONLY, 0644)
+	vacanciesFile, _ := os.OpenFile("files/vacancies.txt", os.O_APPEND|os.O_WRONLY, 0644)
 	defer vacanciesFile.Close()
 
 	// Main Page
